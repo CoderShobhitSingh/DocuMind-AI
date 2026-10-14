@@ -230,6 +230,61 @@ button:disabled { cursor: not-allowed; }
   .message-list { padding-top: 21px; }
 }
 
+.new-chat-button { font-size: 14px; font-weight: 700; }
+.new-chat-button > span { color: #72746c; font-size: 12px; font-weight: 600; }
+.section-heading { color: #686a61; font-size: 11px; font-weight: 750; }
+.count-pill { color: #62645c; font-size: 11px; font-weight: 650; }
+.search-field { color: #74766e; }
+.search-field input { font-size: 13px; font-weight: 550; }
+.search-field input::placeholder { color: #777970; }
+.document-name { color: #383a34; font-size: 13px; font-weight: 650; }
+.document-meta { color: #707269; font-size: 12px; font-weight: 550; }
+.library-empty { color: #71736b; }
+.library-empty p { color: #484a43; font-size: 13px; font-weight: 650; }
+.library-empty span, .no-results { color: #676960; font-size: 12px; font-weight: 550; }
+.selection-toggle { color: #5f6158; font-size: 12px; font-weight: 600; }
+.privacy-note { color: #62645c; font-size: 12px; font-weight: 550; }
+.privacy-note strong { color: #41443d; font-weight: 700; }
+.profile strong { color: #383a34; font-size: 12px; font-weight: 700; }
+.profile > div > span { color: #686a62; font-size: 12px; font-weight: 550; }
+.breadcrumb { color: #74756d; font-size: 12px; font-weight: 550; }
+.breadcrumb strong { color: #41433c; font-weight: 650; }
+.connection-status { font-size: 12px; font-weight: 650; }
+.connection-status.local { color: #68695f; }
+.mobile-library-button, .upgrade-button { color: #4f5149; font-size: 12px; font-weight: 650; }
+.mobile-library-count { font-size: 11px; font-weight: 650; }
+.welcome-eyebrow { color: #5f695f; font-size: 12px; font-weight: 750; }
+.welcome-description { color: #62645c; font-size: 15px; font-weight: 550; }
+.welcome-divider { color: #77796f; }
+.upload-copy strong, .ready-card strong { color: #343b34; font-size: 14px; font-weight: 700; }
+.upload-copy > span, .ready-card > div > span { color: #62665e; font-size: 13px; font-weight: 550; }
+.suggestion-label { color: #686a61; font-size: 12px; font-weight: 700; }
+.suggestion-chip { color: #4f5149; font-size: 12px; font-weight: 600; }
+.suggestion-chip:disabled { color: #666860; }
+.suggestion-number { color: #696b62; font-size: 11px; font-weight: 750; }
+.trust-note { color: #62645c; font-size: 12px; font-weight: 550; }
+.conversation-title { color: #4f5149; font-size: 13px; font-weight: 650; }
+.message-date { color: #696b62; font-size: 11px; font-weight: 700; }
+.message-author { color: #41433d; font-size: 13px; font-weight: 700; }
+.message-text { color: #3e403a; font-size: 15px; font-weight: 500; }
+.message.user .message-text { color: #34483a; }
+.answer-mode { color: #596a58; font-size: 11px; font-weight: 700; }
+.sources-heading { color: #62645c; font-size: 11px; font-weight: 750; }
+.sources-heading > span:last-child { color: #6c6e65; font-weight: 550; }
+.source-number { color: #405d48; font-size: 11px; font-weight: 750; }
+.source-filename, .source-view { color: #4d5048; font-size: 12px; font-weight: 600; }
+.source-card blockquote { color: #55574f; font-size: 13px; font-weight: 500; }
+.working-label { color: #65675e; font-size: 11px; font-weight: 650; }
+.composer textarea { color: #30332d; font-size: 15px; font-weight: 500; }
+.composer textarea::placeholder { color: #707269; }
+.composer textarea:disabled { color: #65675e; }
+.composer-context, .selection-warning, .enter-hint { color: #62645c; font-size: 12px; font-weight: 600; }
+.enter-hint kbd { font-size: 13px; }
+.disclaimer { color: #696b62; font-size: 11px; font-weight: 550; }
+.error-banner { font-size: 13px; font-weight: 550; }
+.drop-overlay { font-size: 14px; font-weight: 650; }
+.drop-overlay > span { color: #62695f; font-size: 13px; font-weight: 550; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
